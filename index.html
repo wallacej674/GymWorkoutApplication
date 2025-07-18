@@ -3,58 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gym Workout Application</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>GymAI - Train Smarter with AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <header class="header">
-    <div class="logo">GymAI</div>
-    <nav>
-      <a href="auth.html" class="btn">Login</a>
-    </nav>
+    <div class="header-content">
+      <a href="#" class="logo">GymAI</a>
+      <nav>
+        <a href="auth.html" class="nav-btn">Start Free Trial</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- Full-screen hero section -->
   <section class="hero">
-    <div class="hero-text">
-      <h1>Train Smarter.<br><span class="highlight">Powered by AI.</span></h1>
-      <p>Custom workouts and macro tracking based on your goals — no guesswork, just results.</p>
-      <a href="auth.html" class="btn-primary">Start Free Trial</a>
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>Train Smarter.<br><span class="highlight">Powered by AI.</span></h1>
+        <p>Custom workouts and macro tracking based on your goals — no guesswork, just results.</p>
+        <a href="auth.html" class="cta-btn">Start Free Trial</a>
+      </div>
+      <div class="hero-visual">
+        <!-- <div class="section-image">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Person working out with AI fitness guidance" />
+        </div> -->
+      </div>
     </div>
   </section>
 
-  <section class="section section-workout glossy-background">
-    <div class="section-overlay"></div>
-
-    <div class="section-content glass-card">
-      <h2>💡 <span>Personalized Workout Plans</span></h2>
-      <p>Just answer a few quick questions and get a custom weekly workout routine — no guesswork, no fluff. Smart, personalized training sent right to your device.</p>
-    </div>
-
-    <div class="section-image">
-      <img src="images/iphone-workout-routine.webp" alt="Workout plan on phone" />
+  <section class="section section-workout">
+    <div class="section-container reveal">
+      <div class="glass-card">
+        <h2>Personalized Workout Plans</h2>
+        <p>Get AI-generated workout routines tailored to your fitness level, goals, and available equipment. Our smart algorithm adapts as you progress.</p>
+        <ul class="feature-list">
+          <li>Custom routines based on your goals</li>
+          <li>Progressive difficulty adjustment</li>
+          <li>Equipment-based modifications</li>
+          <li>Real-time form corrections</li>
+        </ul>
+      </div>
+      <div class="section-image">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Personalized workout plan on mobile device" />
+      </div>
     </div>
   </section>
-
 
   <section class="section section-macro">
-    <div class="section-content">
-      <h2>🥗 Effortless Macro Tracking</h2>
-      <p>Track your meals and hit your targets with smart nutrition guidance built-in.</p>
+    <div class="section-container reveal">
+      <div class="section-image">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Macro tracking interface with healthy meals" />
+      </div>
+      <div class="glass-card">
+        <h2>Effortless Macro Tracking</h2>
+        <p>Track your nutrition with AI-powered food recognition and smart meal suggestions that align with your fitness goals.</p>
+        <ul class="feature-list">
+          <li>Photo-based food logging</li>
+          <li>Smart macro calculations</li>
+          <li>Meal planning suggestions</li>
+          <li>Progress tracking & insights</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <section class="section section-progress">
-    <div class="section-content">
-      <h2>📈 Visible Progress</h2>
-      <p>Know what’s working. Stay consistent. Watch the results compound.</p>
+    <div class="section-container reveal">
+      <div class="glass-card">
+        <h2>Visible Progress</h2>
+        <p>Watch your transformation unfold with comprehensive analytics, progress photos, and performance metrics that keep you motivated.</p>
+        <ul class="feature-list">
+          <li>Visual progress tracking</li>
+          <li>Performance analytics</li>
+          <li>Achievement milestones</li>
+          <li>Motivation insights</li>
+        </ul>
+      </div>
+      <div class="section-image">
+        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Progress tracking dashboard with charts and metrics" />
+      </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <p>&copy; 2025 Gym Workout Application. All rights reserved.</p>
-  </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
